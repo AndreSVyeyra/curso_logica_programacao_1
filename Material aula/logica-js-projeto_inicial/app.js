@@ -4,7 +4,7 @@ console.log(numeroScreto);
 let chute = prompt ('Escolha um número entre 1 e 10');
 
 if (chute == numeroScreto ){
-    alert('Isso aí! você descobriu o número secreto (5)')
+    alert( `Isso aí! você descobriu o número ${numeroScreto}`);
 } else {
     alert('Você errou :(')
 }
