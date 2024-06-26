@@ -45,7 +45,7 @@ if(numero > 0){
    } */
 
 
-
+/* 
 let  numero = 1; 
 
 while(numero <= 10){
@@ -53,4 +53,25 @@ while(numero <= 10){
    numero++
 }
    
+   */
   
+
+/* let nota = 6;
+
+if (nota >= 7){
+   console.log('Aprovado!');
+}else{
+   console.log('Reprovado!');
+} */
+
+
+/* let numeroAleatorio = Math.random();
+console.log(numeroAleatorio) */
+
+/*    let numeroAleatorio = parseInt(Math.random() * 10 + 1);
+
+console.log(numeroAleatorio); */
+
+
+let numeroAleatorio = parseInt(Math.random()*1000 + 1);
+console.log(numeroAleatorio);
